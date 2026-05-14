@@ -206,6 +206,7 @@ declare module 'vue' {
     UserAgentParser: typeof import('./tools/user-agent-parser/user-agent-parser.vue')['default']
     UserAgentResultCards: typeof import('./tools/user-agent-parser/user-agent-result-cards.vue')['default']
     UuidGenerator: typeof import('./tools/uuid-generator/uuid-generator.vue')['default']
+    WebsocketTester: typeof import('./tools/websocket-tester/websocket-tester.vue')['default']
     WifiQrCodeGenerator: typeof import('./tools/wifi-qr-code-generator/wifi-qr-code-generator.vue')['default']
     XmlFormatter: typeof import('./tools/xml-formatter/xml-formatter.vue')['default']
     XmlToJson: typeof import('./tools/xml-to-json/xml-to-json.vue')['default']

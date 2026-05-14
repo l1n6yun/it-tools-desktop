@@ -392,3 +392,7 @@ tools:
   m3u8-player:
     title: M3U8 播放器
     description: 播放 M3U8 视频流，支持 HLS 协议的视频播放。
+
+  websocket-tester:
+    title: WebSocket 测试器
+    description: 实时连接、发送和接收 WebSocket 消息，测试和调试 WebSocket 连接。

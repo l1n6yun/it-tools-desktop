@@ -66,6 +66,7 @@ import { tool as urlParser } from './url-parser';
 import { tool as userAgentParser } from './user-agent-parser';
 import { tool as uuidGenerator } from './uuid-generator';
 import { tool as wifiQrCodeGenerator } from './wifi-qr-code-generator';
+import { tool as websocketTester } from './websocket-tester';
 import { tool as xmlFormatter } from './xml-formatter';
 import { tool as xmlToJson } from './xml-to-json';
 import { tool as yamlToJson } from './yaml-to-json-converter';
@@ -156,6 +157,7 @@ export const toolsByCategory: ToolCategory[] = [
       macAddressLookup,
       macAddressGenerator,
       ipv6UlaGenerator,
+      websocketTester,
     ],
   },
   {

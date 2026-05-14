@@ -396,3 +396,7 @@ tools:
   m3u8-player:
     title: M3U8 Player
     description: Play M3U8 video streams with HLS protocol support.
+
+  websocket-tester:
+    title: WebSocket tester
+    description: Connect, send and receive messages through WebSocket in real-time. Test and debug WebSocket connections.

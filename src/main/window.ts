@@ -20,7 +20,7 @@ export function createWindow(): BrowserWindow {
     titleBarStyle: 'default',
     icon: icon,
     webPreferences: {
-      preload: join(__dirname, '../preload/index.js'),
+      preload: join(__dirname, '../preload/index.mjs'),
       sandbox: false,
       contextIsolation: true,
       nodeIntegration: false,
